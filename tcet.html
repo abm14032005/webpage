@@ -1,0 +1,104 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-image: url(rgb.jpeg);
+            -webkit-background-composite: border;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%,100%;
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;   
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> REGISTRATION FORM </h1> </center>  
+  <hr>  
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="30" required >     
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="30"required > 
+<label> Date of birth(dd/mm/yyyy) :</label>
+<input type="text" name="Date of birth" placeholder="Date of birth" size="10" required> <br>
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male <br>   
+<input type="radio" value="Female" name="gender"> Female   <br>
+<input type="radio" value="Other" name="gender"> Other  <br>
+</div>  
+<label>   
+Phone :  
+</label>   
+<input type="text" name="phone" placeholder="phone no." size="10" required> <br> <br> 
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="email" placeholder="Enter Email" name="email" required>  
+ <div>  
+  <label>   
+  Branch :  
+  </label><br>  
+  <input type="radio" value="COMPS" name="gender" checked > COMPS <br>  
+  <input type="radio" value="IT" name="gender"> IT   <br>
+  <input type="radio" value="AIDS" name="gender"> AIDS <br>
+  <input type="radio" value="EXTC" name="gender"> EXTC <br>
+  <input type="radio" value="MECHANICAL" name="gender"> MECHANICAL <br>
+  <input type="radio" value="CIVIL" name="gender"> CIVIL <br>
+  </div>  
+    <center><a href="submit (2).HTML" >Register</a> </center>
+    <style>
+      a:link, a:visited {
+  background-color: #85fa00;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(105, 245, 12);
+}
+    </style>
+</form>  
+</body>  
+</html>  
